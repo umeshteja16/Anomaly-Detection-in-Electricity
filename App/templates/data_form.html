@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Data Entry Form</title>
+</head>
+<body>
+    <form method="POST" action="{{ url_for('process_data') }}" enctype="multipart/form-data" target="_blank">
+        <h1>Data Entry Form</h1>
+        <div>
+            <label for="consumer_data">Consumer Data:</label>
+            <input type="file" id="consumer_data" name="consumer_data" required>
+        </div>
+        <div>
+            <label for="meter_data">Meter Data:</label>
+            <input type="file" id="meter_data" name="meter_data" required>
+        </div>
+        <div>
+            <label for="historical_data">Historical Data:</label>
+            <input type="file" id="historical_data" name="historical_data" required>
+        </div>
+        <button type="submit">Generate</button>
+    </form>
+</body>
+</html>

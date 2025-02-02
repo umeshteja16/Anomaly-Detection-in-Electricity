@@ -1,0 +1,26 @@
+[
+    {
+        "anomalyid": 1,
+        "consumerid": "C0012",
+        "contactinfo": "(555) 234-5678",
+        "issue": "faulty_meter"
+    },
+    {
+        "anomalyid": 2,
+        "consumerid": "C0018",
+        "contactinfo": "(555) 890-1234",
+        "issue": "unauthorized_consumption"
+    },
+    {
+        "anomalyid": 3,
+        "consumerid": "C0021",
+        "contactinfo": "(555) 123-4567",
+        "issue": "unauthorized_consumption"
+    },
+    {
+        "anomalyid": 4,
+        "consumerid": "C0027",
+        "contactinfo": "(555) 789-0123",
+        "issue": "faulty_meter"
+    }
+]
